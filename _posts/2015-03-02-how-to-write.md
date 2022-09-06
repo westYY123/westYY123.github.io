@@ -1,22 +1,11 @@
 ---
 layout: post
-title: 这是一篇博客文章模板
-date: 2015-3-02
+title: Hello, World!
+date: 2022-09-6
 categories: blog
-tags: [标签一,标签二]
+tags: [life]
 description: 文章金句。
 ---
 
-这里是博客正文。
-
-
-
-
-
-
-
-
-
-
-
-
+Although I decided to establish my blog about two years ago, on Sep 6, 2022, I succeed!<br>
+Hope I can persist in writing!
