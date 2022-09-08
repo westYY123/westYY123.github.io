@@ -1,27 +1,27 @@
 # Site settings
-title: hyy's blog # 你的博客名字，可以定义修订
+title: hyy's blog
 header-img: "img/green.jpg"
 tagline: "cn"  
-description: "welcome to my blog"  # 一句话描述你的博客
+description: "welcome to my blog"
 baseurl: ""
 url: ""  # 此处填写你的博客地址
 
 # About/contact
 owner: 
-  name: "Yinyun Huang" # 填写作者信息：名字
-  email: yinyhuang7@gmail.com # 填写作者信息：邮箱
-  bio: "share of life and tech" # 填写作者信息：博客描述
+  name: "Yinyun Huang"
+  email: yinyhuang7@gmail.com
+  bio: "share of life and tech"
 
 # Data
-gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
-favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+gavatar: img/favicon.png
+favicon: img/favicon.png
 
 douban_username:  # 你的豆瓣id
 twitter_username: 
-github_username: 
+github_username: whyy7777
 facebook_username: 
 weibo_username: 
-zhihu_username: 
+zhihu_username: harvey-48-99
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -43,7 +43,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "hyy" # 你的名字
+      author: "hyy"
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
