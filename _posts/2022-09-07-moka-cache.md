@@ -12,7 +12,7 @@ When Redis crashed, the attempt to access Redis will cause a panic, we just map_
 Hence, one of my work is to extract the error returned by Redis, this is a simple and explict task which can be completed and implemented easily.<br>
 However, there is a fatal feature we have ignored when we construct this cache. Plz have a look at the code below:<br>
 ![pic](https://whyy7777.github.io/img/moka.png)
-In the 4th line, we construct a cache with max capacity of 1, then the next two lines we insert two entries to this cache, as we know, the max capacity of our cache is 1, So the first one we insert is not available, but 8th line indicate that we get "hyy1" this String success.<br>
+In the 4th line, we construct a cache with max capacity of 1, then the next two lines we insert two entries to this cache, as we know, the max capacity of our cache is 1, So the first one we insert is not available, but 8th line indicates that we get "hyy1" this String success.<br>
 Let's move on, in the 13th line, we call entry_count method to get the size of our cache, it returns us 0 which is confused.<br>
 How can it be 0 after two insertion?<br>
 If the max_capacity we specified can not limit the mount of entries, this can lead to OOM error. Imagining that endless insertion without elimination, the memory usage of this cache can be bigger than our physical memory.<br>
