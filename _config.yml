@@ -4,7 +4,7 @@ header-img: "img/green.jpg"
 tagline: "cn"  
 description: "welcome to my blog"
 baseurl: ""
-url: ""  # 此处填写你的博客地址
+url: ""
 
 # About/contact
 owner: 
