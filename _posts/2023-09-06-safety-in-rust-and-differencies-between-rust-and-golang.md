@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cache constructed by moka crate
+title: Safety in Rust and differences between Rust and Golang
 date: 2022-09-07
 categories: blog
 tags: [Rust]
