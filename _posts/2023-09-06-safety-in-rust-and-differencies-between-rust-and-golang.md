@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Safety in Rust and differences between Rust and Golang
-date: 2022-09-07
+date: 2023-09-06
 categories: blog
 tags: [Rust]
 description: 
