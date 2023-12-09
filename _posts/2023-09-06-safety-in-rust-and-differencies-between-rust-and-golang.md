@@ -1,4 +1,4 @@
----
+git ---
 layout: post
 title: Safety in Rust and differences between Rust and Golang
 date: 2023-09-06
